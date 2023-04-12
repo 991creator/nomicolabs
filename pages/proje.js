@@ -53,7 +53,7 @@ const Proje = () => {
         </div> 
     </div>
     <div className="flex justify-center">
-        <p className="bg-black text-white text-3xl p-[10px]">#PROJE_LIST</p>
+        <p className="bg-black text-white text-5xl p-[10px]">PROJECTS</p>
     </div>
     <div className="flex flex-row flex-wrap justify-center items-center m-[50px]">
     <div className="bg-white rounded-lg shadow-lg overflow-hidden m-[15px]">
