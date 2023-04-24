@@ -29,7 +29,7 @@ const Home = () => {
         <Link href="/" className="p-[15px] text-xl">HOME</Link>
       </div>
       <div className="mx-[15px]">
-        <Link href="/proje" className="p-[15px] text-xl">PROJE</Link>
+        <Link href="/proje" className="p-[15px] text-xl">PROJECTS</Link>
       </div>
       <div className="mx-[15px]">
         <Link href="/about" className="p-[15px] text-xl">ABOUT</Link>
@@ -46,7 +46,7 @@ const Home = () => {
           HOME
         </Link>
         <Link className="text-4xl p-[10px] m-[10px]" href="/proje">
-          PROJE
+          PROJECTS
         </Link>
         <Link className="text-4xl p-[10px] m-[10px]" href="/about">
           ABOUT

@@ -28,7 +28,7 @@ const Proje = () => {
         <Link href="/" className="p-[15px] text-xl">HOME</Link>
       </div>
       <div className="mx-[15px]">
-        <Link href="/proje" className="p-[15px] text-xl">PROJE</Link>
+        <Link href="/proje" className="p-[15px] text-xl">PROJECTS</Link>
       </div>
       <div className="mx-[15px]">
         <Link href="/about" className="p-[15px] text-xl">ABOUT</Link>
@@ -45,7 +45,7 @@ const Proje = () => {
           HOME
         </Link>
         <Link className="text-4xl p-[10px] m-[10px]" href="/proje">
-          PROJE
+          PROJECTS
         </Link>
         <Link className="text-4xl p-[10px] m-[10px]" href="/about">
           ABOUT
@@ -55,68 +55,25 @@ const Proje = () => {
     <div className="flex justify-center">
         <p className="bg-black text-white text-5xl p-[10px]">PROJECTS</p>
     </div>
-    <div className="flex flex-row flex-wrap justify-center items-center m-[50px]">
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden m-[15px]">
-  <div className="flex justify-center items-center object-cover h-48 bg-black">
-    <p className="text-white text-2xl m-[25px]">#TOOLUM</p>
-  </div>
-  <div className="p-4">
-    <h2 className="text-lg font-medium text-gray-900 mb-2">
-      Make the WEB3 clear
-    </h2>
-    <p className="w-full md:w-96 text-gray-700 mb-4">
-    Toolum is a service that helps crypto influencers master new areas of the WEB3 movement, or simplify their daily routine in working with it. With Toolum your life will be easier
-    </p>
-    <Link
-      href="https://toolum.vercel.app/"
-      target="_blank"
-      className="inline-block bg-black hover:bg-white text-white hover:text-black border-2 border-black rounded-lg py-2 px-4 rounded transition-colors duration-300"
-    >
-      Explore
+    <div className="flex flex-wrap justify-center items-center m-[50px]">
+    <Link href="https://toolum.vercel.app/" target="_blank" className="m-[20px]">
+    <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
+      <p className="text-5xl m-[15px]">TOOLUM</p>
+      <p>#WEB3 LIBRARY</p>
+    </div>
     </Link>
-  </div>
-</div>
-<div className="bg-white rounded-lg shadow-lg overflow-hidden m-[15px]">
-  <div className="flex justify-center items-center object-cover h-48 bg-black">
-    <p className="text-white text-2xl m-[25px]">#VECKTRUM</p>
-  </div>
-  <div className="h-full p-4">
-    <h2 className="text-lg font-medium text-gray-900 mb-2">
-      Crypto portfolio helper
-    </h2>
-    <p className="w-full md:w-96 text-gray-700 mb-4 overflow">
-    Vecktrum is a convenient assistant in working with your crypto portfolio. A simple interface will help you find out the balance, the current price of gas in different networks.
-    </p>
-    <Link
-      href="https://vecktrum.vercel.app/"
-      target="_blank"
-      className="inline-block bg-black hover:bg-white text-white hover:text-black border-2 border-black rounded-lg py-2 px-4 rounded transition-colors duration-300"
-    >
-      Explore
+    <Link href="https://vecktrum.vercel.app/" target="_blank" className="m-[20px]">
+    <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
+      <p className="text-5xl m-[15px]">VECKTRUM</p>
+      <p>#WEB3 WALLET</p>
+    </div>
     </Link>
-  </div>
-</div>
-<div className="bg-white rounded-lg shadow-lg overflow-hidden m-[15px]">
-  <div className="flex justify-center items-center object-cover h-48 bg-black">
-    <p className="text-white text-2xl m-[25px]">#MAGIGEN</p>
-  </div>
-  <div className="p-4">
-    <h2 className="text-lg font-medium text-gray-900 mb-2">
-      Generate entire world
-    </h2>
-    <p className="w-full md:w-96 text-gray-700 mb-4">
-    Magigen claims to be the weirdest app for web3, as it is a simple generator that allows you to generate a password for a wallet in a couple of seconds and much more.
-    </p>
-    <Link
-      href="https://magigen.vercel.app/"
-      target="_blank"
-      className="inline-block bg-black hover:bg-white text-white hover:text-black border-2 border-black rounded-lg py-2 px-4 rounded transition-colors duration-300"
-    >
-      Explore
+    <Link href="https://magigen.vercel.app/" target="_blank" className="m-[20px]">
+    <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
+      <p className="text-5xl m-[15px]">MAGIGEN</p>
+      <p>#WEB3 GENERATOR</p>
+    </div>
     </Link>
-  </div>
-</div>
-    
     </div>
   </div>
   
