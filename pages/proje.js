@@ -58,20 +58,26 @@ const Proje = () => {
     <div className="flex flex-wrap justify-center items-center m-[50px]">
     <Link href="https://toolum.vercel.app/" target="_blank" className="m-[20px]">
     <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
-      <p className="text-5xl m-[15px]">TOOLUM</p>
+      <p className="text-4xl m-[15px]">TOOLUM</p>
       <p>#WEB3 LIBRARY</p>
     </div>
     </Link>
     <Link href="https://vecktrum.vercel.app/" target="_blank" className="m-[20px]">
     <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
-      <p className="text-5xl m-[15px]">VECKTRUM</p>
+      <p className="text-4xl m-[15px]">VECKTRUM</p>
       <p>#WEB3 WALLET</p>
     </div>
     </Link>
     <Link href="https://magigen.vercel.app/" target="_blank" className="m-[20px]">
     <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
-      <p className="text-5xl m-[15px]">MAGIGEN</p>
+      <p className="text-4xl m-[15px]">MAGIGEN</p>
       <p>#WEB3 GENERATOR</p>
+    </div>
+    </Link>
+    <Link href="https://specktr-w.vercel.app/" target="_blank" className="m-[20px]">
+    <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
+      <p className="text-4xl m-[15px]">SPECKTR-W</p>
+      <p>#TRANSACTIONS PROTOCOL</p>
     </div>
     </Link>
     </div>
