@@ -1,28 +1,19 @@
-import Link from "next/link";
 import Image from "next/image";
-import Head from "next/head";
 import { useState } from "react";
+import Link from "next/link";
 
-const Home = () => {
-  const [state, setState] = useState(0);
+export default function Wrong () {
+    const [state, setState] = useState(0);
 
-  const handleNav = () => {
+    const handleNav = () => {
     setState(!state);
-  }
-  return (
-  <>
-  <Head>
-        <title>NOMICOLABS</title>
-        <meta
-          content="Web3lab"
-          name="Making web3 clear."
-        />
-        <link href="/logot.png" rel="icon" />
-  </Head>
-  <div className="h-screen w-screen">
-    <div className="hidden md:flex flex-row justify-between items-start items-center">
+    }
+    return (
+        <>
+            <div className="flex flex-col h-screen w-screen">
+            <div className="hidden md:flex flex-row justify-between items-start items-center">
       <div className="ml-[30px]">
-      <Link href="/">
+        <Link href="/">
         <Image src="/logot.png" width="100" height="100" alt="logo" className="justify-start h-[100px] w-[100px]"></Image>
         </Link>
       </div>
@@ -55,24 +46,12 @@ const Home = () => {
         </Link>
         </div> 
     </div>
-    <div className="flex flex-col justify-center items-center h-5/6">
-    <div className="flex justify-center items-start">
-        <b className="text-5xl md:text-8xl">NOMICO</b>
-        <b className="text-lg md:text-3xl underline bg-black text-white">LABS</b>
+    <div className="flex flex-row justify-center items-center h-5/6">
+        <p className="text-3xl md:text-5xl">NOMICO</p>
+        <p className="text-3xl md:text-5xl text-orange-500">#404</p>
+        <p className="text-3xl md:text-5xl">LABS</p>
     </div>
-    <p className="text-sm md:text-base font-bold">
-      100110010001
-    </p>
-    </div>
-    <div className="flex justify-center items-end">
-      <div className="flex flex-row">
-        <Link href="https://twitter.com/nomicolabs" className="underline">@NOMICOLABS</Link>
-      </div>
-    </div>
-  </div>
-  
-  </>
-);
+            </div>
+        </>
+    );
 }
-
-export default Home;

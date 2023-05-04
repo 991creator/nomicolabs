@@ -21,7 +21,9 @@ const Proje = () => {
     <div className="flex flex-col">
     <div className="hidden md:flex flex-row justify-between items-start items-center">
       <div className="ml-[30px]">
+      <Link href="/">
         <Image src="/logot.png" width="100" height="100" alt="logo" className="justify-start h-[100px] w-[100px]"></Image>
+        </Link>
       </div>
       <div className="flex flex-row justify-end mr-[100px]">
       <div className="mx-[15px]">
@@ -58,31 +60,36 @@ const Proje = () => {
     <div className="flex flex-wrap justify-center items-center m-[50px]">
     <Link href="https://toolum.vercel.app/" target="_blank" className="m-[20px]">
     <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
-      <p className="text-4xl m-[15px]">TOOLUM</p>
+      <p className="text-4xl m-[15px]">Toolum</p>
       <p>#WEB3 LIBRARY</p>
     </div>
     </Link>
     <Link href="https://vecktrum.vercel.app/" target="_blank" className="m-[20px]">
     <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
-      <p className="text-4xl m-[15px]">VECKTRUM</p>
+      <p className="text-4xl m-[15px]">Vecktrum</p>
       <p>#WEB3 WALLET</p>
     </div>
     </Link>
     <Link href="https://magigen.vercel.app/" target="_blank" className="m-[20px]">
     <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
-      <p className="text-4xl m-[15px]">MAGIGEN</p>
+      <p className="text-4xl m-[15px]">MagiGen</p>
       <p>#WEB3 GENERATOR</p>
     </div>
     </Link>
     <Link href="https://specktr-w.vercel.app/" target="_blank" className="m-[20px]">
     <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
-      <p className="text-4xl m-[15px]">SPECKTR-W</p>
+      <p className="text-4xl m-[15px]">Specktr-W</p>
       <p>#TRANSACTIONS PROTOCOL</p>
+    </div>
+    </Link>
+    <Link href="https://fleetleopard.vercel.app/" target="_blank" className="m-[20px]">
+    <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
+      <p className="text-4xl m-[15px]">Fleet Leopard</p>
+      <p>#BLOCKCHAIN PROTOCOL</p>
     </div>
     </Link>
     </div>
   </div>
-  
     </>
 );
 }

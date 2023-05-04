@@ -22,7 +22,9 @@ const About = () => {
     <div className="flex flex-col h-screen">
     <div className="hidden md:flex flex-row justify-between items-start items-center">
       <div className="ml-[30px]">
+      <Link href="/">
         <Image src="/logot.png" width="100" height="100" alt="logo" className="justify-start h-[100px] w-[100px]"></Image>
+        </Link>
       </div>
       <div className="flex flex-row justify-end mr-[100px]">
       <div className="mx-[15px]">
