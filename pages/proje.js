@@ -33,7 +33,7 @@ const Proje = () => {
         <Link href="/proje" className="p-[15px] text-xl">PROJECTS</Link>
       </div>
       <div className="mx-[15px]">
-        <Link href="/about" className="p-[15px] text-xl">ABOUT</Link>
+        <Link href="/mission" className="p-[15px] text-xl">MISSION</Link>
       </div>
       </div>
     </div>
@@ -49,8 +49,8 @@ const Proje = () => {
         <Link className="text-4xl p-[10px] m-[10px]" href="/proje">
           PROJECTS
         </Link>
-        <Link className="text-4xl p-[10px] m-[10px]" href="/about">
-          ABOUT
+        <Link className="text-4xl p-[10px] m-[10px]" href="/mission">
+          MISSION
         </Link>
         </div> 
     </div>

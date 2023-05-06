@@ -12,7 +12,7 @@ const About = () => {
   return (
     <>
     <Head>
-        <title>ABOUT</title>
+        <title>MISSION</title>
         <meta
           content="Web3lab"
           name="Making web3 clear."
@@ -34,7 +34,7 @@ const About = () => {
         <Link href="/proje" className="p-[15px] text-xl">PROJECTS</Link>
       </div>
       <div className="mx-[15px]">
-        <Link href="/about" className="p-[15px] text-xl">ABOUT</Link>
+        <Link href="/mission" className="p-[15px] text-xl">MISSION</Link>
       </div>
       </div>
     </div>
@@ -50,22 +50,22 @@ const About = () => {
         <Link className="text-4xl p-[10px] m-[10px]" href="/proje">
           PROJECTS
         </Link>
-        <Link className="text-4xl p-[10px] m-[10px]" href="/about">
-          ABOUT
+        <Link className="text-4xl p-[10px] m-[10px]" href="/mission">
+          MISSION
         </Link>
         </div> 
     </div>
     <div className="flex justify-center items-center h-full">
-        <p className="flex text-5xl font-bold">AIM - MAKING WEB3 CLEAR FOR EVERYONE...</p>
+        <p className="flex text-2xl md:text-5xl font-bold">MISSION - CLEAR WEB3...</p>
     </div>
   </div>
   <div className="flex flex-col justify-center items-center">
-    <p className="text-5xl">Mission team</p>
+    <p className="text-4xl">TEAM</p>
     <div className="flex flex-row m-[25px]">
       <div className="flex flex-col justify-center items-center border-2 border-black rounded-xl m-[20px] p-[20px]">
-        <Image src="/logot.png" width="300" height="300" alt="logo"></Image>
+        <Image src="/logot.png" width="250" height="250" alt="logo"></Image>
         <p className="text-2xl font-bold">991CREATOR</p>
-        <p className="text-xl mt-[15px]">CEO</p>
+        <p className="text-xl mt-[15px]">CEO - DEV</p>
       </div>
     </div>
   </div>
