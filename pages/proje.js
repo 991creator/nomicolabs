@@ -19,7 +19,7 @@ const Proje = () => {
         <link href="/logot.png" rel="icon" />
   </Head>
     <div className="flex flex-col">
-    <div className="hidden md:flex flex-row justify-between items-start items-center">
+    <div className="hidden border-b-2 border-b-black md:flex flex-row justify-between items-start items-center">
       <div className="ml-[30px]">
       <Link href="/">
         <Image src="/logot.png" width="100" height="100" alt="logo" className="justify-start h-[100px] w-[100px]"></Image>
@@ -55,9 +55,11 @@ const Proje = () => {
         </div> 
     </div>
     <div className="flex justify-center">
-        <p className="bg-black text-white text-5xl p-[10px]">PROJECTS</p>
+        <p className="bg-black text-white text-5xl p-[10px] m-[20px]">PROJECTS</p>
     </div>
-    <div className="flex flex-wrap justify-center items-center m-[50px]">
+    <div className="flex flex-wrap justify-center items-center">
+    <div className="flex self-center m-[50px] flex-row flex-wrap border-2 border-black rounded-2xl">
+    <p className="flex self-center pl-[20px] text-xl font-bold">WEB3APP</p>
     <Link href="https://toolum.vercel.app/" target="_blank" className="m-[20px]">
     <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
       <p className="text-4xl m-[15px]">Toolum</p>
@@ -76,6 +78,9 @@ const Proje = () => {
       <p>#WEB3 GENERATOR</p>
     </div>
     </Link>
+    </div>
+    <div className="flex self-center m-[50px] flex-row flex-wrap border-2 border-black rounded-2xl">
+    <p className="flex self-center pl-[20px] text-xl font-bold">BLOCKCHAINSOLUTION</p>
     <Link href="https://specktr-w.vercel.app/" target="_blank" className="m-[20px]">
     <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
       <p className="text-4xl m-[15px]">Specktr-W</p>
@@ -88,6 +93,7 @@ const Proje = () => {
       <p>#BLOCKCHAIN PROTOCOL</p>
     </div>
     </Link>
+    </div>
     </div>
   </div>
     </>
