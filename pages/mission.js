@@ -14,8 +14,8 @@ const About = () => {
     <Head>
         <title>MISSION</title>
         <meta
-          content="Web3lab"
-          name="Making web3 clear."
+          content="Nomicolabs is web3 development studio, our AIM is making WEB3 clear for everyone."
+          name="Nomicolabs"
         />
         <link href="/logot.png" rel="icon" />
   </Head>
