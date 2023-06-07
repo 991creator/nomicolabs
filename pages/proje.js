@@ -99,6 +99,12 @@ const Proje = () => {
       <p>#STORAGE PROTOCOL</p>
     </div>
     </Link>
+    <Link href="https://debora.vercel.app/" target="_blank" className="m-[20px]">
+    <div className=" flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
+      <p className="text-4xl m-[15px]">Debora</p>
+      <p>#CHAT PROTOCOL</p>
+    </div>
+    </Link>
     </div>
     </div>
   </div>

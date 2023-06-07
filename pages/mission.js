@@ -65,7 +65,7 @@ const About = () => {
       <div className="flex flex-col justify-center items-center border-2 border-black rounded-xl m-[20px] p-[20px]">
         <Image src="/logot.png" width="250" height="250" alt="logo"></Image>
         <p className="text-2xl font-bold">991CREATOR</p>
-        <p className="text-xl mt-[15px]">CEO - DEV</p>
+        <p className="text-xl mt-[15px]">HEAD DEV.</p>
       </div>
     </div>
   </div>
