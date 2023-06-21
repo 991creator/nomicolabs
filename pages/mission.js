@@ -24,10 +24,10 @@ const About = () => {
     <Navi></Navi>
     <div className="flex flex-col justify-center items-center h-full">
       <div className="border-4 border-black p-[10px]">
-        <p className="text-2xl md:text-5xl font-bold">PROTECT</p>
-        <p className="text-2xl md:text-5xl font-bold">EXPLORE</p>
-        <p className="text-2xl md:text-5xl font-bold">RESEARCH</p>
-        <p className="text-5xl md:text-8xl font-bold text-transparent rounded bg-clip-text caret-pink-600 bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-purple-800 via-rose-500 to-amber-700"> web3</p>
+        <p className="text-4xl md:text-6xl ">PROTECT</p>
+        <p className="text-4xl md:text-6xl ">EXPLORE</p>
+        <p className="text-4xl md:text-6xl ">RESEARCH</p>
+        <p className="text-7xl md:text-9xl font-bold text-transparent rounded bg-clip-text caret-pink-600 bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-purple-800 via-rose-500 to-amber-700"> WEB3</p>
       </div>
     </div>
   </div>

@@ -24,11 +24,11 @@ const Home = () => {
     <Navi></Navi>
     <div className="flex flex-col justify-center items-center h-5/6">
     <div className="flex justify-center items-start">
-        <b className="text-5xl md:text-8xl">NOMICO</b>
-        <b className="text-lg md:text-3xl underline bg-black text-white">LABS</b>
+        <b className="text-7xl md:text-8xl">NOMICO</b>
+        <b className="text-xl md:text-3xl underline bg-black text-white">LABS</b>
     </div>
-    <p className="text-sm md:text-base font-bold">
-      WEB3DEFENDERS
+    <p className="text-lg md:text-xl font-bold mt-[15px] md:mt-[25px]">
+      DEEP SECURE
     </p>
     </div>
     <div className="flex justify-center items-end">
