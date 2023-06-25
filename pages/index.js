@@ -33,7 +33,7 @@ const Home = () => {
     </div>
     <div className="flex justify-center items-end">
       <div className="flex flex-row">
-        <Link href="https://twitter.com/nomicolabs" className="underline">@NOMICOLABS</Link>
+        <Link href="https://twitter.com/nomicolabs" target="_blank" className="underline">@NOMICOLABS</Link>
       </div>
     </div>
   </div>

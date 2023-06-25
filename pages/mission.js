@@ -31,16 +31,6 @@ const About = () => {
       </div>
     </div>
   </div>
-  <div className="flex flex-col justify-center items-center">
-    <p className="text-4xl">TEAM</p>
-    <div className="flex flex-row m-[25px]">
-      <div className="flex flex-col justify-center items-center border-2 border-black rounded-xl m-[20px] p-[20px]">
-        <Image src="/logot.png" width="100" height="100" alt="logo"></Image>
-        <p className="text-2xl font-bold">991CREATOR</p>
-        <p className="text-lg mt-[15px]">HEAD DEV.</p>
-      </div>
-    </div>
-  </div>
   
     </>
 );
