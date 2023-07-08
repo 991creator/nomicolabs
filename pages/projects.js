@@ -43,7 +43,7 @@ const Proje = () => {
     <Link href="https://floatblock.vercel.app/" target="_blank" className="m-[20px]">
     <div className="transition duration-150 ease-out hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
       <p className="text-4xl m-[15px]">FloatBlock</p>
-      <p>#WEB3 STORAGE</p>
+      <p>#WEB3 SPACE</p>
     </div>
     </Link>
     <Link href="https://debora.vercel.app/" target="_blank" className="m-[20px]">
