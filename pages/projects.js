@@ -8,48 +8,36 @@ const Proje = () => {
   return (
     <>
     <Head>
-        <title>PROJECTS</title>
+        <title>PROJECTS // NOMICO</title>
         <meta
           content="Nomicolabs is web3 development studio, our AIM is making WEB3 clear for everyone."
           name="Nomicolabs"
         />
-        <link href="/logot.png" rel="icon" />
+        <link href="/mainLogo.png" rel="icon" />
   </Head>
-    <div className="flex flex-col">
+    <div className="flex flex-col h-full md:h-screen w-screen bg-slate-950">
     <Navi></Navi>
-    <div className="flex justify-center">
-        <p className="text-black text-5xl p-[10px] m-[20px]">PROJECTS</p>
-    </div>
-    <div className="flex flex-wrap justify-center items-center">
+    <div className="flex flex-wrap h-full w=full justify-center items-center">
     
-    <Link href="https://toolum.vercel.app/" target="_blank" className="m-[20px]">
-    <div className="transition duration-150 ease-out hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
-      <p className="text-4xl m-[15px]">Toolum</p>
-      <p>#WEB3 LIBRARY</p>
-    </div>
-    </Link>
     <Link href="https://vecktrum.vercel.app/" target="_blank" className="m-[20px]">
-    <div className="transition duration-150 ease-out hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
-      <p className="text-4xl m-[15px]">Vecktrum</p>
-      <p>#WEB3 WALLET</p>
-    </div>
-    </Link>
-    <Link href="https://specktr-w.vercel.app/" target="_blank" className="m-[20px]">
-    <div className="transition duration-150 ease-out hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
-      <p className="text-4xl m-[15px]">Specktr-W</p>
-      <p>#WEB3 TRANSFERS</p>
+    <div className="transition duration-150 ease-out p-[15px] hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[400px] w-[300px] bg-white border-2 border-black">
+      <p className="text-4xl">Vecktrum</p>
+      <p className="text-xl my-[15px]">#WEB3 wallet</p>
+      <p className="text-base">Web3 AI powered web application for creating crypto portfolio!</p>
     </div>
     </Link>
     <Link href="https://floatblock.vercel.app/" target="_blank" className="m-[20px]">
-    <div className="transition duration-150 ease-out hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
-      <p className="text-4xl m-[15px]">FloatBlock</p>
-      <p>#WEB3 SPACE</p>
+    <div className="transition duration-150 ease-out p-[15px] hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[400px] w-[300px] bg-white border-2 border-black">
+      <p className="text-4xl">FloatBlock</p>
+      <p className="text-xl my-[15px]">#WEB3 social media</p>
+      <p className="text-base">Web3 decentralized web application for posting and share actual news!</p>
     </div>
     </Link>
     <Link href="https://debora.vercel.app/" target="_blank" className="m-[20px]">
-    <div className="transition duration-150 ease-out hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[200px] w-[300px] bg-white border-2 border-black rounded-2xl">
-      <p className="text-4xl m-[15px]">Debora</p>
-      <p>#WEB3 CHAT</p>
+    <div className="transition duration-150 ease-out p-[15px] hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[400px] w-[300px] bg-white border-2 border-black">
+      <p className="text-4xl">Debora</p>
+      <p className="text-xl my-[15px]">#WEB3 messanger</p>
+      <p className="text-base">Decentralized and private messenger web application!</p>
     </div>
     </Link>
     </div>

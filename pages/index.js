@@ -14,35 +14,22 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>NOMICOLABS</title>
+        <title>HOME // NOMICO</title>
         <meta
           content="Nomicolabs is web3 development studio, our AIM is making WEB3 clear for everyone."
           name="Nomicolabs"
         />
-        <link href="/logot.png" rel="icon" />
+        <link href="/mainLogo.png" rel="icon" />
       </Head>
 
-      <div className="h-screen w-screen">
+      <div className="h-screen w-screen bg-slate-950 text-white">
         <Navi />
 
         <div className="flex flex-col justify-center items-center h-5/6">
-          <p className="text-5xl md:text-7xl">NOMICOLABS</p>
-          <p className="text-lg md:text-xl font-bold mt-[15px] md:mt-[25px]">
-            DEEP SECURE
+          <Image src="/mainLogo.png" height="500" width="500" alt="logo"></Image>
+          <p className="text-2xl md:text-5xl underline font-bold mt-[15px] md:mt-[25px]">
+            SECURE.PRIVACY.FREEDOM
           </p>
-        </div>
-
-        <div className="flex justify-center items-end">
-          <div className="flex flex-row">
-            <a
-              href="https://twitter.com/nomicolabs"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              @NOMICOLABS
-            </a>
-          </div>
         </div>
       </div>
     </>

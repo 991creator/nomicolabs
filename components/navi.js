@@ -9,12 +9,12 @@ export default function Navi () {
   }
     return (
         <>
-         <div className="flex  flex-row justify-between items-center p-[10px]">
-      <Link href="/"><Image src="/logot.png" width="100" height="100" alt="logo"></Image></Link>
+         <div className="flex flex-row justify-between items-center p-[10px]">
+      <Link href="/"><p className="ml-[25px] text-2xl md:text-3xl p-[10px] text-white">{'//Nomico Labs'}</p></Link>
       <div className="flex items-center justify-end z-10">
-        <button onClick={() => handleNav()}><Image src="/navi.png" width="80" height="80" alt="logo"></Image></button>
+        <button className="p-[25px] bg-slate-950 rounded-full" onClick={() => handleNav()}><Image src="/whiteNav.jpeg" width="50" height="50" alt="logo"></Image></button>
       </div>
-      <div className={state ? "top-0 left-0 right-0 absolute h-screen w-screen flex flex-col justify-center items-center bg-white ease-in duration-300" : "top-0 left-[-100%] right-0 ease-in duration-300 absolute h-screen w-screen flex flex-col justify-center items-center bg-white"}>
+      <div className={state ? "top-0 left-0 right-0 absolute h-screen w-screen flex flex-col justify-center items-center bg-white ease-in duration-300 text-black" : "top-0 left-[-100%] right-0 ease-in duration-300 absolute h-screen w-screen flex flex-col justify-center items-center bg-white text-black"}>
         <Link className="text-4xl md:text-6xl p-[10px] my-[10px] md:my-[20px]" href="/">
           HOME
         </Link>
