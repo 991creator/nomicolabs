@@ -10,7 +10,7 @@ export default function Navi () {
     return (
         <>
          <div className="flex flex-row justify-between items-center p-[10px]">
-      <Link href="/"><p className="ml-[25px] text-2xl md:text-3xl p-[10px] text-white">{'//Nomico Labs'}</p></Link>
+      <Link href="/"><p className="ml-[25px] text-2xl md:text-3xl p-[10px] text-white font-bold">{'Nomico Labs'}</p></Link>
       <div className="flex items-center justify-end z-10">
         <button className="p-[25px] bg-slate-950 rounded-full" onClick={() => handleNav()}><Image src="/whiteNav.jpeg" width="50" height="50" alt="logo"></Image></button>
       </div>

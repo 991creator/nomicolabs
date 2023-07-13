@@ -28,7 +28,7 @@ const Home = () => {
         <div className="flex flex-col justify-center items-center h-5/6">
           <Image src="/mainLogo.png" height="500" width="500" alt="logo"></Image>
           <p className="text-2xl md:text-5xl underline font-bold mt-[15px] md:mt-[25px]">
-            SECURE.PRIVACY.FREEDOM
+            /SECURE.PRIVACY.FREEDOM
           </p>
         </div>
       </div>

@@ -19,25 +19,25 @@ const Proje = () => {
     <Navi></Navi>
     <div className="flex flex-wrap h-full w=full justify-center items-center">
     
-    <Link href="https://vecktrum.vercel.app/" target="_blank" className="m-[20px]">
+    <Link href="https://sageport.vercel.app/" target="_blank" className="m-[20px]">
     <div className="transition duration-150 ease-out p-[15px] hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[400px] w-[300px] bg-white border-2 border-black">
-      <p className="text-4xl">Vecktrum</p>
-      <p className="text-xl my-[15px]">#WEB3 wallet</p>
-      <p className="text-base">Web3 AI powered web application for creating crypto portfolio!</p>
+      <p className="text-4xl">Sageport</p>
+      <p className="text-xl my-[15px]">#WEB3 transfers</p>
+      <p className="text-base mt-[25px] text-xl">Decentralized transactions protocol for anonimous split sending!</p>
     </div>
     </Link>
     <Link href="https://floatblock.vercel.app/" target="_blank" className="m-[20px]">
     <div className="transition duration-150 ease-out p-[15px] hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[400px] w-[300px] bg-white border-2 border-black">
       <p className="text-4xl">FloatBlock</p>
       <p className="text-xl my-[15px]">#WEB3 social media</p>
-      <p className="text-base">Web3 decentralized web application for posting and share actual news!</p>
+      <p className="text-base mt-[25px] text-xl">Web3 decentralized web application for posting and share actual news!</p>
     </div>
     </Link>
     <Link href="https://debora.vercel.app/" target="_blank" className="m-[20px]">
     <div className="transition duration-150 ease-out p-[15px] hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[400px] w-[300px] bg-white border-2 border-black">
       <p className="text-4xl">Debora</p>
       <p className="text-xl my-[15px]">#WEB3 messanger</p>
-      <p className="text-base">Decentralized and private messenger web application!</p>
+      <p className="text-base mt-[25px] text-xl">Decentralized and private messenger web application for encryption chatting!</p>
     </div>
     </Link>
     </div>
