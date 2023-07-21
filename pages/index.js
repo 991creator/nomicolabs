@@ -25,10 +25,10 @@ const Home = () => {
       <div className="h-screen w-screen bg-slate-950 text-white">
         <Navi />
 
-        <div className="flex flex-col justify-center items-center h-5/6">
+        <div className="flex flex-col justify-center items-center ">
           <Image src="/mainLogo.png" height="500" width="500" alt="logo"></Image>
-          <p className="text-2xl md:text-5xl underline font-bold mt-[15px] md:mt-[25px]">
-            /SECURE.PRIVACY.FREEDOM
+          <p className="text-3xl md:text-5xl  font-bold mt-[15px] md:mt-[25px]">
+            NOMICO UNIVERSE
           </p>
         </div>
       </div>
