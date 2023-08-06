@@ -21,8 +21,8 @@ const Proje = () => {
     
     <Link href="https://sageport.vercel.app/" target="_blank" className="m-[20px]">
     <div className="transition duration-150 ease-out p-[15px] hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[400px] w-[300px] bg-white border-2 border-black">
-      <p className="text-4xl">Sageport</p>
-      <p className="text-xl my-[15px]">#WEB3 safe</p>
+      <p className="text-4xl">SagePort</p>
+      <p className="text-xl my-[15px]">#WEB3 safe storage</p>
       <p className="text-base mt-[25px] text-xl">Private cells with decentralized ownership stored on Blockchain!</p>
     </div>
     </Link>
