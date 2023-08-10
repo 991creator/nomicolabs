@@ -17,7 +17,7 @@ const Proje = () => {
   </Head>
     <div className="flex flex-col h-full md:h-screen w-screen bg-slate-950">
     <Navi></Navi>
-    <div className="flex flex-wrap h-full w=full justify-center items-center">
+    <div className="flex flex-wrap h-full w-full justify-center items-center ">
     
     <Link href="https://sageport.vercel.app/" target="_blank" className="m-[20px]">
     <div className="transition duration-150 ease-out p-[15px] hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[400px] w-[300px] bg-white border-2 border-black">
