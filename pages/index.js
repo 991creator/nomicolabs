@@ -16,20 +16,22 @@ const Home = () => {
       <Head>
         <title>HOME // NOMICO</title>
         <meta
-          content="Nomicolabs is web3 development studio, our AIM is making WEB3 clear for everyone."
+          content="Nomicolabs - WEB3 development studio."
           name="Nomicolabs"
         />
         <link href="/mainLogo.png" rel="icon" />
       </Head>
 
-      <div className="h-screen w-screen bg-slate-950 text-white">
+      <div className="h-screen w-screen overflow-hidden bg-white text-black">
         <Navi />
-
-        <div className="flex flex-col justify-center items-center ">
-          <Image src="/mainLogo.png" height="500" width="500" alt="logo"></Image>
-          <p className="text-3xl md:text-5xl  font-bold mt-[15px] md:mt-[25px]">
-            NOMICO UNIVERSE
+        <p className="text-8xl md:text-9xl font-bold ">
+            WEB3.0
           </p>
+          <p className="text-5xl md:text-4xl ">
+            PIONEERS
+          </p>
+        <div className="flex md:text-3xl font-bold text-2xl flex-col justify-center items-end h-full ">
+          <p>Exploring on-chain world...</p>
         </div>
       </div>
     </>

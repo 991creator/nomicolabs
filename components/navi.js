@@ -10,12 +10,12 @@ export default function Navi () {
     return (
         <>
          <div className="flex flex-row justify-between items-center p-[10px]">
-      <Link href="/"><p className="ml-[25px] text-2xl md:text-3xl p-[10px] hover:text-gray-300 text-white font-bold">Nomico Labs</p></Link>
-      <div className="md:flex hidden text-white">
-        <Link className="text-3xl hover:text-gray-300 px-[30px] my-[20px]" href="/projects">
+      <Link href="/"><p className="ml-[25px] text-2xl md:text-3xl p-[10px] hover:text-gray-600 text-black font-bold">Nomico Labs</p></Link>
+      <div className="md:flex hidden text-black">
+        <Link className="text-3xl hover:text-gray-600 px-[30px] my-[20px]" href="/projects">
           Projects
         </Link>
-        <Link className="text-3xl hover:text-gray-300 px-[30px] my-[20px]" href="/mission">
+        <Link className="text-3xl hover:text-gray-600 px-[30px] my-[20px]" href="/mission">
           Mission
         </Link>
         </div> 

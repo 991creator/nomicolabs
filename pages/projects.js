@@ -7,43 +7,30 @@ import Navi from "../components/navi";
 const Proje = () => {
   return (
     <>
-    <Head>
-        <title>PROJECTS // NOMICO</title>
-        <meta
-          content="Nomicolabs is web3 development studio, our AIM is making WEB3 clear for everyone."
-          name="Nomicolabs"
-        />
-        <link href="/mainLogo.png" rel="icon" />
-  </Head>
-    <div className="flex flex-col h-full md:h-screen w-screen bg-slate-950">
-    <Navi></Navi>
-    <div className="flex flex-wrap h-full w-full justify-center items-center ">
-    
-    <Link href="https://sageport.vercel.app/" target="_blank" className="m-[20px]">
-    <div className="transition duration-150 ease-out p-[15px] hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[400px] w-[300px] bg-white border-2 border-black">
-      <p className="text-4xl">SagePort</p>
-      <p className="text-xl my-[15px]">#WEB3 donation</p>
-      <p className="text-base mt-[25px] text-xl">Decentralized and private donation platform for convenient fundraising!</p>
-    </div>
-    </Link>
-    <Link href="https://floatblock.vercel.app/" target="_blank" className="m-[20px]">
-    <div className="transition duration-150 ease-out p-[15px] hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[400px] w-[300px] bg-white border-2 border-black">
-      <p className="text-4xl">FloatBlock</p>
-      <p className="text-xl my-[15px]">#WEB3 social media</p>
-      <p className="text-base mt-[25px] text-xl">WWEB3 decentralized web application for posting and share actual news!</p>
-    </div>
-    </Link>
-    <Link href="https://debora.vercel.app/" target="_blank" className="m-[20px]">
-    <div className="transition duration-150 ease-out p-[15px] hover:ease-in flex flex-col hover:bg-gray-200 justify-center items-center h-[400px] w-[300px] bg-white border-2 border-black">
-      <p className="text-4xl">Debora</p>
-      <p className="text-xl my-[15px]">#WEB3 messenger</p>
-      <p className="text-base mt-[25px] text-xl">Decentralized and private messenger web application for encryption chatting!</p>
-    </div>
-    </Link>
-    </div>
-    </div>
+      <Head>
+          <title>PROJECTS // NOMICO</title>
+          <meta
+            content="Nomicolabs - WEB3 development studio."
+            name="Nomicolabs"
+          />
+          <link href="/mainLogo.png" rel="icon" />
+      </Head>
+      <div className="flex flex-col h-full md:h-screen w-screen bg-white text-white">
+        <Navi />
+        <div className="flex flex-wrap h-full w-full justify-center items-center p-4">
+          <Link href="https://floatblock.vercel.app/" target="_blank"
+            className="m-4 transition duration-300 ease-out hover:scale-105 hover:shadow-lg flex flex-col items-center h-96 w-72 bg-white text-black border-2 border-gray-300 overflow-hidden">
+              <Image src="/floatblock.png" alt="FloatBlock" width={200} height={150} layout="fixed" />
+              <div className="p-4">
+                <p className="text-2xl font-semibold">FloatBlock</p>
+                <p className="text-lg mt-2">#WEB3 Social-Fi</p>
+                <p className="text-sm mt-4">Decentralized application for sending any news and ETH! All data stored on ZkEVM Blockchain.</p>
+              </div>
+          </Link>
+        </div>
+      </div>
     </>
-);
+  );
 }
 
 export default Proje;
