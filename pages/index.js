@@ -27,10 +27,10 @@ const Home = () => {
         <p className="text-8xl md:text-9xl font-bold ">
             WEB3.0
           </p>
-          <p className="text-5xl md:text-4xl ">
+          <p className="text-5xl md:text-4xl pl-[25px]">
             PIONEERS
           </p>
-        <div className="flex md:text-3xl font-bold text-2xl flex-col justify-center items-end h-full ">
+        <div className="flex md:text-3xl font-bold text-2xl flex-col justify-center items-end h-full bg-black text-white">
           <p>Exploring on-chain world...</p>
         </div>
       </div>
