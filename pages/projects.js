@@ -23,8 +23,17 @@ const Proje = () => {
               <Image src="/floatblock.png" alt="FloatBlock" width={200} height={150} layout="fixed" />
               <div className="p-4">
                 <p className="text-2xl font-semibold">FloatBlock</p>
-                <p className="text-lg mt-2">#WEB3 Social-Fi</p>
-                <p className="text-sm mt-4">Decentralized application for sending any news and ETH! All data stored on ZkEVM Blockchain.</p>
+                <p className="text-lg mt-2">#WEB3 Social-FI</p>
+                <p className="text-sm mt-4">Decentralized Social-FI application.</p>
+              </div>
+          </Link>
+          <Link href="https://t.me/Toucanibot" target="_blank"
+            className="m-4 transition duration-300 ease-out hover:scale-105 hover:shadow-lg flex flex-col items-center h-96 w-72 bg-white text-black border-2 border-gray-300 overflow-hidden">
+              <Image src="/toucan.png" alt="FloatBlock" width={200} height={150} layout="fixed" />
+              <div className="p-4">
+                <p className="text-2xl font-semibold">Toucani.FI</p>
+                <p className="text-lg mt-2">#WEB3 Helper</p>
+                <p className="text-sm mt-4">Friendly crypto-financial helper..</p>
               </div>
           </Link>
         </div>
